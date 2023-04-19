@@ -5,34 +5,40 @@ body {
     margin: 0px 0px;
 }
 
-h1 {
-    color: white;
-}
-
 header {
     background-color: black;
-    border: white solid;
+    margin-bottom: 20px;
 }
 
 .logo {
     display: flex;
-    border: white solid;
-    display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
 }
 
-img {
-    background-image: url(/horrorOrNot/assets/logo.png);
-    object-fit: contain;
-    width: 20%;
-    aspect-ratio: 3/2;
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: white;
+}
+
+.headerLinksContainer {
+    display: flex;
+    justify-content: end;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .headerLinks {
     text-decoration: none;
     color: white;
-    padding: 0px 20px;
+    padding-left: 20px;
     transition: all ease-in-out .3s;
     font-size: 20px;
 }
