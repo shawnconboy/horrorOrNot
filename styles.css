@@ -13,7 +13,7 @@ header {
     padding-top: 10px;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,17 +67,6 @@ a:hover {
     padding-bottom: 40px;
 }
 
-/* .mainLinks {} */
-
-/* .mainLinks img {
-    height: 300px;
-}
-
-.mainLinks video {
-    width: auto;
-    height: 300px;
-} */
-
 .posterVideo {
     display: flex;
     justify-content: space-around;
@@ -86,9 +75,13 @@ a:hover {
     max-width: 100%;
 }
 
+.posterVideo object {
+    height: 368px;
+    width: 658px;
+}
+
 .movieInsert {
     border-bottom: solid black 0.1px;
     border-top: solid black 0.1px;
     padding-bottom: 20px;
-
 }
