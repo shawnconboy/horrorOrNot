@@ -69,13 +69,21 @@ a:hover {
 
 /* .mainLinks {} */
 
-.mainLinks img {
+/* .mainLinks img {
     height: 300px;
 }
 
 .mainLinks video {
     width: auto;
     height: 300px;
+} */
+
+.posterVideo {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 368px;
+    max-width: 100%;
 }
 
 .movieInsert {
