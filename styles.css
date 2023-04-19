@@ -4,11 +4,13 @@ body {
     color: rgb(0, 0, 0);
     margin: 0px 0px;
     letter-spacing: 0.5px;
+    background-image: url(/horrorOrNot/assets/background.jpg);
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: black;
-    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -32,9 +34,10 @@ header {
 
 .headerLinksContainer {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-left: 20%;
     margin-right: 20%;
+    padding-bottom: 10px;
 }
 
 .headerLinks {
@@ -69,4 +72,11 @@ a:hover {
 .mainLinks video {
     width: auto;
     height: 300px;
+}
+
+.movieInsert {
+    border-bottom: solid black 0.1px;
+    border-top: solid black 0.1px;
+    padding-bottom: 20px;
+
 }
