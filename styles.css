@@ -1,4 +1,25 @@
 body {
     background-color: black;
     font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin: 0px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 05px 30px;
+    border: solid white 1px;
+}
+
+.headerLinks {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+h1 {
+    text-align: center;
 }
