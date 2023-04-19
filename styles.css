@@ -14,14 +14,11 @@ header {
     /* border: solid white 1px; */
 }
 
-/* .logo {
-    background-image: url(/horrorOrNot/assets/logo.png);
-    width: 100px;
-    height: 50px;
-} */
-
 img {
-    background-color: transparent;
+    background-image: url(/horrorOrNot/assets/logo.png);
+    object-fit: contain;
+    width: 20%;
+    aspect-ratio: 3/2;
 }
 
 .headerLinks {
@@ -29,6 +26,7 @@ img {
     color: white;
     padding: 0px 20px;
     transition: all ease-in-out .3s;
+    font-size: 20px;
 }
 
 a:hover {
@@ -37,4 +35,5 @@ a:hover {
 
 h1 {
     text-align: center;
+    font-size: 50px;
 }
