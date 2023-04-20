@@ -72,10 +72,14 @@ a:hover {
     border-radius: 20px;
 }
 
+.actionWords {
+    color: rgb(255, 67, 67);
+}
+
 
 .movieInsert {
-    border-bottom: solid black 0.1px;
-    border-top: solid black 0.1px;
+    border-bottom: solid rgb(150, 150, 150) 0.1px;
+    border-top: solid rgb(150, 150, 150) 0.1px;
     padding-bottom: 20px;
 }
 
