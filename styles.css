@@ -64,21 +64,16 @@ a:hover {
     padding-bottom: 40px;
 }
 
-.posterVideo {
-    display: flex;
-    justify-content: space-around;
-    width: auto;
-    height: 368px;
-    max-width: 100%;
-}
-
-.posterVideo object {
-    height: 368px;
-    width: 658px;
-}
 
 .movieInsert {
     border-bottom: solid black 0.1px;
     border-top: solid black 0.1px;
     padding-bottom: 20px;
+}
+
+.posterVideo {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    max-width: 100%;
 }
