@@ -30,3 +30,30 @@ nav {
     color: rgb(67, 67, 67);
     padding: 0 10px;
 }
+
+main {
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.movieInsert {
+    /* padding: 0 20px; */
+}
+
+.movieAssets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movieImage {
+    height: 200px;
+    width: 133.33px;
+}
+
+.movieVideo {
+    height: 200px;
+    width: 355px;
+}
