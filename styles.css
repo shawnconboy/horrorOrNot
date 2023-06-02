@@ -35,7 +35,7 @@ main {
     border: 1px solid black;
     width: 70%;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 .movieInsert {
