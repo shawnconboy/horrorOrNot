@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(180, 180, 180);
-    color: rgb(67, 67, 67);
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -27,7 +27,7 @@ nav {
 
 .navLinks {
     text-decoration: none;
-    color: rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
     padding: 0 10px;
 }
 
