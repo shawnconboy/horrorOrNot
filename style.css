@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(24, 24, 24);
     color: rgb(255, 255, 255);
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
@@ -33,7 +33,7 @@ nav {
 
 main {
     border: 1px solid black;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     border-radius: 11px;
 }
@@ -41,7 +41,8 @@ main {
 
 /* This will act as the container for each new movie review */
 .movieInsert {
-    /* padding: 0 20px; */
+    padding: 0 15%;
+    border: 2px solid white;
 }
 
 
@@ -53,11 +54,11 @@ main {
 }
 
 .movieImage {
-    height: 200px;
-    width: 133.33px;
+    height: 266px;
+    width: 177.33px;
 }
 
 .movieVideo {
-    height: 200px;
-    width: 355px;
+    height: 266px;
+    width: 473px;
 }
